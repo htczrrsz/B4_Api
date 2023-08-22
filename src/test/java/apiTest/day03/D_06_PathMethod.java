@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 import static io.restassured.RestAssured.*;
 
-public class PathMethod {
+public class D_06_PathMethod {
     @BeforeClass
     public void beforeClass(){
         baseURI="https://www.krafttechexlab.com/sw/api/v1";
@@ -76,7 +76,7 @@ public class PathMethod {
         assertEquals(lastname,"GHAN");
 
 //        skills[0][1] --> MercanS's skills --> java
-//        education[0][1] --> MercanS's school --> BootCamp
+//        education[0].school[0] --> MercanS's school --> School or BootCamp
 
     }
 

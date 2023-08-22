@@ -11,7 +11,7 @@ import static org.testng.Assert.*;
 import static io.restassured.RestAssured.*;
 
 
-public class UserGetRequestWithQueryParam {
+public class D_05_UserGetRequestWithQueryParam {
     @BeforeClass
     public void beforeClass(){
         baseURI="https://www.krafttechexlab.com/sw/api/v1";

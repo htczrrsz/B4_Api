@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 import static io.restassured.RestAssured.*;
 
-public class UserGetRequestWithPathParam {
+public class D_03_UserGetRequestWithPathParam {
 
     @BeforeClass
     public void beforeClass(){

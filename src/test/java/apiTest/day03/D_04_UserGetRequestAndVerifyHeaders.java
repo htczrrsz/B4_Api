@@ -9,7 +9,7 @@ import static org.testng.Assert.*;
 import static io.restassured.RestAssured.*;
 
 
-public class UserGetRequestAndVerifyHeaders {
+public class D_04_UserGetRequestAndVerifyHeaders {
 
 
     @BeforeClass

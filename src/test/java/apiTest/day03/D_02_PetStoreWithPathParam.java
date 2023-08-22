@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 import static io.restassured.RestAssured.baseURI;
 
-public class PetStoreWithPathParam {
+public class D_02_PetStoreWithPathParam {
 
     @BeforeClass
     public void beforeClass() {
@@ -18,11 +18,11 @@ public class PetStoreWithPathParam {
 
 
     @Test
-    public void petStoreFindPetByID() {
+    public void petStoreFindPetByID1() {
         Response response = RestAssured.given()
                 .accept(ContentType.JSON)
                 .when()
-                .get(baseURI + "/pet/566");
+                .get("/pet/566");
         response.prettyPrint();
 
         assertEquals(response.statusCode(), 200);
@@ -34,9 +34,9 @@ public class PetStoreWithPathParam {
         Response response = RestAssured.given()
                 .accept(ContentType.JSON)
                 .and()
-                .pathParam("petID", 566)
+                .pathParam("petId", 10)
                 .when()
-                .get("/pet/{petID}");
+                .get("/pet/{petId}");
         response.prettyPrint();
         assertEquals(response.statusCode(),200);
 

@@ -6,14 +6,14 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ClassTask1 {
+public class D_01_ClassTask {
    String bookStoreBaseURL ="https://bookstore.toolsqa.com";
 
     @Test
     public void bookStoreTest1(){
         /**
          * Given accept type is JSON
-         * When user send GET request to
+         * When user send GET request to "/BookStore/v1/Books"
          * Then verify that response status code 200
          * and body is JSON format
          * and response body has "Eric Elliott"
