@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="path">
+    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="Header Test, Query Param, Path Method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/BookStorePathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/KraftExlabJsonPathMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/ClassTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_01_ClassTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/PetStoreWithPathParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_02_PetStoreWithPathParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestAndVerifyHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_04_UserGetRequestAndVerifyHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_03_UserGetRequestWithPathParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithQueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_05_UserGetRequestWithQueryParam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,57 +48,24 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.D_05_UserGetRequestWithQueryParam.queryParams">
-    <configuration name="D_02_PetStoreWithPathParam.petStoreFindPetByID" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath">
+    <configuration name="BookStorePathMethod.bookStoreGetTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_02_PetStoreWithPathParam" />
-      <option name="METHOD_NAME" value="petStoreFindPetByID" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D_02_PetStoreWithPathParam.petStoreFindPetByID2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_02_PetStoreWithPathParam" />
-      <option name="METHOD_NAME" value="petStoreFindPetByID2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D_03_UserGetRequestWithPathParam.getUserByID" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_03_UserGetRequestWithPathParam" />
-      <option name="METHOD_NAME" value="getUserByID" />
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.BookStorePathMethod" />
+      <option name="METHOD_NAME" value="bookStoreGetTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,7 +91,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D_05_UserGetRequestWithQueryParam.queryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KraftExlabJsonPathMethod.getAllUsersWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
+      <option name="METHOD_NAME" value="getAllUsersWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
+      <option name="METHOD_NAME" value="getUserAndVerifyItWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetRequestAndVerifyHeaders.headerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_05_UserGetRequestWithQueryParam" />
-      <option name="METHOD_NAME" value="queryParams" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestAndVerifyHeaders" />
+      <option name="METHOD_NAME" value="headerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D_05_UserGetRequestWithQueryParam.queryParams" />
+        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath" />
+        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" />
+        <item itemvalue="TestNG.BookStorePathMethod.bookStoreGetTest" />
+        <item itemvalue="TestNG.UserGetRequestAndVerifyHeaders.headerTest" />
         <item itemvalue="TestNG.D_04_UserGetRequestAndVerifyHeaders.headerTest" />
-        <item itemvalue="TestNG.D_03_UserGetRequestWithPathParam.getUserByID" />
-        <item itemvalue="TestNG.D_02_PetStoreWithPathParam.petStoreFindPetByID2" />
-        <item itemvalue="TestNG.D_02_PetStoreWithPathParam.petStoreFindPetByID" />
       </list>
     </recent_temporary>
   </component>
@@ -185,12 +185,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692644643844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Header Test, Query Param, Path Method">
+      <created>1692677284995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692677284995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pathParam" />
     <MESSAGE value="path" />
-    <option name="LAST_COMMIT_MESSAGE" value="path" />
+    <MESSAGE value="Header Test, Query Param, Path Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header Test, Query Param, Path Method" />
   </component>
 </project>
