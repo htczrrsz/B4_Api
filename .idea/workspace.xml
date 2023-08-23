@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="Header Test, Query Param, Path Method">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/BookStorePathMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/KraftExlabJsonPathMethod.java" afterDir="false" />
+    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="JsonPath Method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/HamCrestMatchers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonToJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +55,18 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath">
-    <configuration name="BookStorePathMethod.bookStoreGetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JsonToJava.bookStoreUserTest_NegativeCase">
+    <configuration name="HamCrestMatchers.hamcrest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.BookStorePathMethod" />
-      <option name="METHOD_NAME" value="bookStoreGetTest" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamCrestMatchers" />
+      <option name="METHOD_NAME" value="hamcrest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,17 +74,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D_04_UserGetRequestAndVerifyHeaders.headerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamCrestMatchers.hamcrest4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_04_UserGetRequestAndVerifyHeaders" />
-      <option name="METHOD_NAME" value="headerTest" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamCrestMatchers" />
+      <option name="METHOD_NAME" value="hamcrest4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,17 +92,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KraftExlabJsonPathMethod.getAllUsersWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamCrestMatchers.hamcrest5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
-      <option name="METHOD_NAME" value="getAllUsersWithJsonPath" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamCrestMatchers" />
+      <option name="METHOD_NAME" value="hamcrest5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonToJava.bookStoreUserTest_NegativeCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
-      <option name="METHOD_NAME" value="getUserAndVerifyItWithJsonPath" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.JsonToJava" />
+      <option name="METHOD_NAME" value="bookStoreUserTest_NegativeCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestAndVerifyHeaders.headerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonToJava.putAllUsersToList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestAndVerifyHeaders" />
-      <option name="METHOD_NAME" value="headerTest" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.JsonToJava" />
+      <option name="METHOD_NAME" value="putAllUsersToList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath" />
-        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" />
-        <item itemvalue="TestNG.BookStorePathMethod.bookStoreGetTest" />
-        <item itemvalue="TestNG.UserGetRequestAndVerifyHeaders.headerTest" />
-        <item itemvalue="TestNG.D_04_UserGetRequestAndVerifyHeaders.headerTest" />
+        <item itemvalue="TestNG.JsonToJava.bookStoreUserTest_NegativeCase" />
+        <item itemvalue="TestNG.JsonToJava.putAllUsersToList" />
+        <item itemvalue="TestNG.HamCrestMatchers.hamcrest1" />
+        <item itemvalue="TestNG.HamCrestMatchers.hamcrest5" />
+        <item itemvalue="TestNG.HamCrestMatchers.hamcrest4" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692677284995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JsonPath Method">
+      <created>1692735822213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692735822213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pathParam" />
     <MESSAGE value="path" />
     <MESSAGE value="Header Test, Query Param, Path Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header Test, Query Param, Path Method" />
+    <MESSAGE value="JsonPath Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsonPath Method" />
   </component>
 </project>
