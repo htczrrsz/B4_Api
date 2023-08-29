@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="json to Java &#10;de-serilization">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06/DeSerializationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06/GSON_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06/POJO_Deserialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06/POJO_KraftUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07Post/NewUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07Post/PostEducation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07Post/PostRequestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_POJO_Templates/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_POJO_Templates/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_POJO_Templates/KraftUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_POJO_Templates/PetStoreUser.java" afterDir="false" />
+    <list default="true" id="65b1c5e0-e8c4-4180-b372-7b75252b8245" name="Changes" comment="Create">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08/Post_Put_Patch_Delete_Flow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_06_PathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/D_06_PathMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonToJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,25 +60,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/api_POJO_Templates" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PostEducation.postNewUserAndVerify">
-    <configuration name="D_06_PathMethod.testAllUsersWithPathMth" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.D_06_PathMethod" />
-      <option name="METHOD_NAME" value="testAllUsersWithPathMth" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Post_Put_Patch_Delete_Flow">
     <configuration name="JsonToJava.putAllUsersToList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api" />
       <extension name="coverage">
@@ -101,24 +72,6 @@
       <option name="PACKAGE_NAME" value="apiTest.day05" />
       <option name="MAIN_CLASS_NAME" value="apiTest.day05.JsonToJava" />
       <option name="METHOD_NAME" value="putAllUsersToList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostEducation.postNewUser4_WithEducation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day07Post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07Post.PostEducation" />
-      <option name="METHOD_NAME" value="postNewUser4_WithEducation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,13 +115,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Post_Put_Patch_Delete_Flow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day08" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08.Post_Put_Patch_Delete_Flow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post_Put_Patch_Delete_Flow.addExperience" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day08" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08.Post_Put_Patch_Delete_Flow" />
+      <option name="METHOD_NAME" value="addExperience" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Post_Put_Patch_Delete_Flow" />
+        <item itemvalue="TestNG.Post_Put_Patch_Delete_Flow.addExperience" />
         <item itemvalue="TestNG.PostEducation.postNewUserAndVerify" />
         <item itemvalue="TestNG.JsonToJava.putAllUsersToList" />
         <item itemvalue="TestNG.PostEducation.postNewUser4_withEducation" />
-        <item itemvalue="TestNG.D_06_PathMethod.testAllUsersWithPathMth" />
-        <item itemvalue="TestNG.PostEducation.postNewUser4_WithEducation" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692819981656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create">
+      <created>1693290456112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693290456112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +227,7 @@
     <MESSAGE value="Header Test, Query Param, Path Method" />
     <MESSAGE value="JsonPath Method" />
     <MESSAGE value="json to Java &#10;de-serilization" />
-    <option name="LAST_COMMIT_MESSAGE" value="json to Java &#10;de-serilization" />
+    <MESSAGE value="Create" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create" />
   </component>
 </project>
