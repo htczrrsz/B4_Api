@@ -52,7 +52,6 @@ public class D_06_PathMethod {
                 .queryParam("pagesize", 50)
                 .queryParam("page", 1)
                 .when()//.log().all()
-                .when()//.log().all()
                 .get("/allusers/alluser");
 
         assertEquals(response.statusCode(),200);

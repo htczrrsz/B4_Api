@@ -38,8 +38,9 @@ public class JsonToJava {
 
         //verify status code
         Assert.assertEquals(response.statusCode(),200);
+        response.prettyPrint();
 
-        //put all data inside the json body into a list of map --> convert json body to java / de-serilization
+        //put all data inside the json body into a list of map --> convert json body to java / de-serialization
         List<Map<String,Object>> allUser = response.as(List.class);
 
         //verify that the email of first user is "afmercan@gmail.com"
@@ -47,7 +48,7 @@ public class JsonToJava {
         String expectedEmail="afmercan@gmail.com";
         Assert.assertEquals(actualEmail,expectedEmail);
 
-        //verify thay the job of first user is "Manual Tester"
+        //verify that the job of first user is "Manual Tester"
         String actualJob= (String) allUser.get(0).get("job");
         String expectedJob="Manual Tester";
         Assert.assertEquals(actualJob,expectedJob);
